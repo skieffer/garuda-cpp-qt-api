@@ -105,5 +105,5 @@ Not yet supported ... Check back soon!
 
 
 [garuda]: http://www.garuda-alliance.org
-[qt]: http://qt.nokia.com/
+[qt]: http://qt-project.org
 
