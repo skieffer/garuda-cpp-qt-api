@@ -2,7 +2,7 @@ Garuda API for C++ / Qt applications
 ====================================
 
 This API provides an interface to the [Garuda platform][garuda], for C++ applications.
-It relies on the [Qt libraries][qt].
+It relies on the [Qt libraries][qt], and the github repository [ereilin/qt-json][qt-json].
 If you do not have / do not want to use Qt, then you cannot use this API.
 
 ### Activate / Register ###
@@ -106,4 +106,5 @@ Not yet supported ... Check back soon!
 
 [garuda]: http://www.garuda-alliance.org
 [qt]: http://qt-project.org
+[qt-json]: https://github.com/ereilin/qt-json
 
