@@ -79,9 +79,13 @@ the available compatible gadgets.
 
 When you want to ask another gadget to open a file, you make a function call:
 
-    loadFileIntoSoftware(QFileInfo fileInfo, QString softwareId, QString softwareVersion);
+    loadFileIntoSoftware(QFileInfo fileInfo, QString softwareName, QString softwareUUID);
 
-where ....
+For example, you could have
+
+    QFileInfo fileInfo = QFileInfo("glycolysis.xml");
+    QString softwareName = "Dunnart";
+    QString softwareUUID = "593387e0-7183-11e2-bcfd-0800200c9a66";
 
 
 When another gadget asks you to open a file, GarudaClient will emit the signal:
