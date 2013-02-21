@@ -1,6 +1,10 @@
 Garuda API for C++ / Qt applications
 ====================================
 
+This API provides an interface to the [Garuda platform][garuda], for C++ applications.
+It relies on the [Qt libraries][qt].
+If you do not have / do not want to use Qt, then you cannot use this API.
+
 ### Activate / Register ###
 
 To activate and register your gadget, you simply construct an instance of
@@ -99,4 +103,7 @@ which connects to a function you define, called myFileOpenRequest.
 
 Not yet supported ... Check back soon!
 
+
+[garuda]: http://www.garuda-alliance.org
+[qt]: http://qt.nokia.com/
 
